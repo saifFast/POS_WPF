@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POINTOFSALE", "POINTOFSALE.csproj", "{FA1EE890-6084-4845-BEF4-272A164F980C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main_POS", "Main_POS.csproj", "{FA1EE890-6084-4845-BEF4-272A164F980C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{922A4746-C6E0-415B-8DB2-EFD60FE70AF5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{CBA8AFA0-6503-443F-B96A-5E7B27357F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{58B49367-55DF-484A-89C7-6E852DAB28BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Projects\Models\Models.csproj", "{58B49367-55DF-484A-89C7-6E852DAB28BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,7 +28,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{58B49367-55DF-484A-89C7-6E852DAB28BD} = {922A4746-C6E0-415B-8DB2-EFD60FE70AF5}
+		{FA1EE890-6084-4845-BEF4-272A164F980C} = {CBA8AFA0-6503-443F-B96A-5E7B27357F68}
+		{58B49367-55DF-484A-89C7-6E852DAB28BD} = {CBA8AFA0-6503-443F-B96A-5E7B27357F68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82DA86DB-5EC5-4496-8EC6-91056DFF800F}
