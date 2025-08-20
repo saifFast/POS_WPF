@@ -20,7 +20,7 @@
                 <StackPanel Width="300" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <!-- Username -->
                     <TextBlock Text="User Name" FontSize="14" Foreground="#606770" Margin="0,0,0,5" />
-                    <TextBox Name="UserName" Height="30" BorderBrush="#BCC0C4" BorderThickness="1" Padding="5" Margin="0,0,0,10" />
+                    <TextBox Text="admin" Name="UserName" Height="30" BorderBrush="#BCC0C4" BorderThickness="1" Padding="5" Margin="0,0,0,10" />
 
                     <!-- Password -->
                     <TextBlock Text="Password" FontSize="14" Foreground="#606770" Margin="0,0,0,5" />
