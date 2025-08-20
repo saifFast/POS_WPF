@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POINTOFSALE"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Background="LightGray">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Center" FontSize="20">Welcome to Saifullah Hakro's Point of Sale System</TextBlock>
+        <StackPanel Width="150" VerticalAlignment="Center">
+            <TextBlock>User Name</TextBlock>
+            <TextBox Name="UserName"></TextBox>
+            <TextBlock>Password</TextBlock>
+            <PasswordBox Name="Password"></PasswordBox>
+            <Button Click="Login_Button_Click">Login</Button>
+            <Button>Forgot Password</Button>
+        </StackPanel>
     </Grid>
 </Window>

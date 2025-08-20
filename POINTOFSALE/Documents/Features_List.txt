@@ -1,0 +1,4 @@
+﻿1: Login
+2: Dashboard (Add Order, Add Items, View Orders, Views Products, Add Product)
+3: Forgot Password
+4: Database Connectivity
