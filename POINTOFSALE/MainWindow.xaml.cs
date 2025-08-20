@@ -1,4 +1,5 @@
-﻿using POINTOFSALE.MainWindows;
+﻿using ApplicationConstants;
+using POINTOFSALE.MainWindows;
 using System.Windows;
 
 namespace POINTOFSALE
@@ -17,13 +18,13 @@ namespace POINTOFSALE
         {
             if (UserName?.Text == "admin" && Password?.Password == "1234")
             {
-                Dashboard dashboard = new Dashboard();
+                var dashboard = new Dashboard();
                 dashboard.Show();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("User Name or Password is Invalid");
+                MessageBox.Show(Constants.InvalidLoginMessage);
             }
         }
     }

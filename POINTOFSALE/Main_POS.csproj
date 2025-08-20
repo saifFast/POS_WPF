@@ -112,6 +112,10 @@
     <Resource Include="Documents\Features_List.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ApplicationConstants\ApplicationConstants.csproj">
+      <Project>{3B5BB94B-F7D2-41C0-83FC-2AC1EB676936}</Project>
+      <Name>ApplicationConstants</Name>
+    </ProjectReference>
     <ProjectReference Include="Projects\Models\Models.csproj">
       <Project>{58b49367-55df-484a-89c7-6e852dab28bd}</Project>
       <Name>Models</Name>
